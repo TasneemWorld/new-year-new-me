@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.heading{
+    font-weight: 700;
+    font-size: 65px;
+    /* line-height: 76px; */
+    color: #151414;
+}
+section{
+    margin-top: 130px;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.primary-btn-main{
+    padding: 21px 25px;
+    color: white ;
+    background: #F15B22;
+    border: none;
+    border-radius: 5px;
+}
+/* header seation style */
+.banner{
+    background-image: url("images/banner/banner2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    text-align: right;
+    padding-top: 138px;
+    padding-right: 201px;
+}
+.banner-content .heading{
+    padding-left: 632px;
+}
+.banner-content .description{
+    padding-top: 24px;
+    padding-left: 600px ;
+    padding-bottom: 32px;
+}
+.banner-content .primary-btn{
+    padding-bottom: 150px;
+}
+/* section no1: failure year */
+.failures{
+    max-width: 1072px;
+    margin-left: 200px;
+}
+.failures-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+}
+.failures-title{
+    font-weight: 700;
+    font-size: 40px;
+    padding-right: 50px;
+    margin-bottom: 25px;
+}
+.failures-des{
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.failures-list li{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.failures-img img{
+ 
+}
+
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+    color: #16D887;
+  }
+
+  /* plan style */
+  .plans{
+    margin: 0 200px;
+  }
+  .plans-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .plans-catagories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .plans-catagories h4{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 24px;
+  }
+  .plans-catagories p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 20px;
+  }
+  /* keep positive style */
+  .keep-positive{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('images/watch.png');
+    margin: 130px 200px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .kp{
+    padding: 65px 0 24px 60px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  .call{
+    padding-bottom: 61px;
+    margin-left: 60px;
+  }
+  .call .primary-btn-main{
+    color: #F15B22;
+    background: white;
+    font-weight: 400;
+    font-size: 20px;
+  }
